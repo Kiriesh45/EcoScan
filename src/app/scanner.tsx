@@ -611,7 +611,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   frame: {
-    ...StyleSheet.absoluteFillObject,
+    ...StyleSheet.absoluteFill,
     margin: 28,
   },
   scanLineArea: {
@@ -670,7 +670,7 @@ const styles = StyleSheet.create({
   },
   scannerPillText: { color: "#fff", fontSize: 12, fontWeight: "700" },
   analyzingOverlay: {
-    ...StyleSheet.absoluteFillObject,
+    ...StyleSheet.absoluteFill,
     backgroundColor: "rgba(0,0,0,0.5)",
     alignItems: "center",
     justifyContent: "center",

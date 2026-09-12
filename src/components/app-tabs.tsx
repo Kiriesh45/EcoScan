@@ -29,7 +29,7 @@ const TABS: TabDef[] = [
 const ACCENT = Brand.primary;
 
 function CustomTabBar({ state, navigation }: any) {
-  const scheme = useColorScheme() ?? "light";
+  const scheme = useColorScheme() === "dark" ? "dark" : "light";
   const colors = Colors[scheme];
   const insets = useSafeAreaInsets();
 

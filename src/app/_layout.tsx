@@ -2,7 +2,7 @@ import {
   DarkTheme,
   DefaultTheme,
   ThemeProvider,
-} from "@react-navigation/native";
+} from "expo-router/react-navigation";
 import { ActivityIndicator, useColorScheme, View } from "react-native";
 
 import OnboardingScreen from "@/app/onboarding";

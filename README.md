@@ -1,6 +1,6 @@
 # EcoScan
 
-[![CI](https://github.com/Kiriesh45/EcoScan/actions/workflows/ci.yml/badge.svg)](https://github.com/Kiriesh45/EcoScan/actions/workflows/ci.yml)
+[![CI](https://github.com/MykhailoBabych/EcoScan/actions/workflows/ci.yml/badge.svg)](https://github.com/MykhailoBabych/EcoScan/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 EcoScan is a mobile app that helps people sort waste correctly. Point the camera at an item to learn which bin it belongs in and get ideas for reusing it. You can also find recycling points nearby and watch your own planet grow as you recycle more.
@@ -39,7 +39,7 @@ EcoScan was built by a team of four students at a hackathon in Athens in June 20
 
 ## Tech stack
 
-- [Expo](https://expo.dev/) (SDK 54), React Native, and TypeScript
+- [Expo](https://expo.dev/) (SDK 57), React Native, and TypeScript
 - Expo Router for navigation based on files
 - [Supabase](https://supabase.com/) for sign-in, profiles, lessons, and the leaderboard
 - AsyncStorage for data saved on the device
@@ -53,7 +53,7 @@ EcoScan was built by a team of four students at a hackathon in Athens in June 20
 
 ### Requirements
 
-- Node.js 20 or newer
+- Node.js 22 or newer
 - The [Expo Go](https://expo.dev/go) app, an Android emulator, or an iOS simulator
 - A Supabase project and a Google Cloud Vision API key
 

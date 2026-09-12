@@ -4,7 +4,7 @@ import {
   StudentLesson,
   StudentLessonsService,
 } from "@/services/lessons";
-import { useFocusEffect } from "@react-navigation/native";
+import { useFocusEffect } from "expo-router/react-navigation";
 import { useRouter } from "expo-router";
 import { AppIcon } from "@/components/icon";
 import { useCallback, useState } from "react";

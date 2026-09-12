@@ -512,7 +512,7 @@ export default function MapScreen() {
         poiClickEnabled={false}
         showsBuildings={false}
         showsIndoors={false}
-        showsPointsOfInterest={false}
+        showsPointsOfInterests={false}
         showsUserLocation
         onPress={closeFilters}
         onPanDrag={closeFilters}

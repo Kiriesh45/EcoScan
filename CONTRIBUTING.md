@@ -5,7 +5,7 @@ before merging, and how changes get reviewed.
 
 ## Setup
 
-1. Install [Node.js](https://nodejs.org/) 20 or newer.
+1. Install [Node.js](https://nodejs.org/) 22 or newer.
 2. Install dependencies:
 
    ```bash
